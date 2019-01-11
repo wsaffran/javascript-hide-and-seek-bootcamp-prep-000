@@ -22,6 +22,7 @@ function deepestChild() {
     nextNode = nodeList[i].querySelector('div')
     i++
   }
+  return nextNode
 
   //for (let i = 0; i < nodeList.length - 1; i++) {
   //  nextNode = nodeList[i].querySelector('div')
