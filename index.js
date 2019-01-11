@@ -19,7 +19,7 @@ function deepestChild() {
 
   var i = 0
   while (i < nodeList.length - 1) {
-    nextNode = nodeList[i]
+    nextNode = nodeList[i].querySelector('div')
     i++
   }
 
